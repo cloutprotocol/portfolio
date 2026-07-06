@@ -1,0 +1,203 @@
+{
+  "intro": "<b>VMA-winning music video director turned full-time developer.</b> Protocol-level work on <b>Bitcoin</b>, <b>EVM</b>, and <b>Solana</b>. Commissions are open — <a href=\"https://x.com/ordinalOS\">DM @ordinalOS</a>.",
+  "eras": [
+    { "id": "systems", "label": "systems & agents — 2024 → present" },
+    { "id": "bitcoin", "label": "bitcoin & inscriptions — 2023 → present" },
+    { "id": "platforms", "label": "platforms — 2015 → present" },
+    { "id": "creative", "label": "creative direction & world building — 2009 → 2020" }
+  ],
+  "projects": [
+    {
+      "slug": "pump-studio",
+      "title": "Pump Studio",
+      "year": "2026",
+      "era": "systems",
+      "line": "The intelligence layer for pump.fun — AI agent swarm calling tokens pre-bond.",
+      "tags": ["solana", "agents", "mcp"]
+    },
+    {
+      "slug": "purple-trade",
+      "title": "purple.trade",
+      "year": "2026",
+      "era": "systems",
+      "line": "Perpetualize any token on the purple market — synthetic leverage on Solana.",
+      "tags": ["solana", "defi"]
+    },
+    {
+      "slug": "kanye-virtual-production",
+      "title": "Virtual Production — Kanye West",
+      "year": "2025",
+      "era": "systems",
+      "line": "Technical lead: LED volume production and AI imaging pipelines.",
+      "tags": ["led volume", "ai pipelines", "technical lead"]
+    },
+    {
+      "slug": "gitclaw",
+      "title": "gitclaw",
+      "year": "2026",
+      "era": "systems",
+      "line": "A self-improving AI agent living entirely in GitHub Actions.",
+      "tags": ["agents", "github"]
+    },
+    {
+      "slug": "spatial-computing",
+      "title": "Spatial Computing & Immersive Video",
+      "year": "2024",
+      "era": "systems",
+      "line": "visionOS: spatial video pipelines, photogrammetry, gaussian splats.",
+      "tags": ["visionos", "realitykit", "metal"]
+    },
+    {
+      "slug": "milhouse",
+      "title": "Milhouse",
+      "year": "2026",
+      "era": "systems",
+      "line": "Chad pair programmer — autonomous Codex loops, on npm.",
+      "tags": ["agents", "npm"]
+    },
+    {
+      "slug": "clarkos",
+      "title": "ClarkOS",
+      "year": "2026",
+      "era": "systems",
+      "line": "A continuously learning agentic realtime knowledgebase.",
+      "tags": ["agents", "convex"]
+    },
+    {
+      "slug": "soviet-chess-club",
+      "title": "Soviet Chess Club",
+      "year": "2025",
+      "era": "systems",
+      "line": "GPT-5 vs GROK4, live — an LLM benchmark disguised as a Cold War broadcast.",
+      "tags": ["llm", "benchmark", "$sclub"]
+    },
+    {
+      "slug": "max",
+      "title": "Max",
+      "year": "2026",
+      "era": "systems",
+      "line": "On-device iOS assistant with audio-reactive Metal shaders.",
+      "tags": ["ios", "coreml", "metal"]
+    },
+    {
+      "slug": "riftrunner",
+      "title": "riftrunner",
+      "year": "2025",
+      "era": "systems",
+      "line": "A browser MOBA built from scratch in Three.js.",
+      "tags": ["three.js", "game"]
+    },
+    {
+      "slug": "zatoshi",
+      "title": "Zatoshi — Zerdinals on Zcash",
+      "year": "2025",
+      "era": "bitcoin",
+      "line": "Indexer, marketplace, wallet, 10k collection — inscriptions where none existed.",
+      "tags": ["zcash", "rust", "protocol"]
+    },
+    {
+      "slug": "inscribing-nashville",
+      "title": "Inscribing Nashville",
+      "year": "2024",
+      "era": "bitcoin",
+      "line": "120-ft LED volume in Unreal Engine at Bitcoin Conference 2024.",
+      "tags": ["unreal", "led volume", "bitcoin"]
+    },
+    {
+      "slug": "inscripedia",
+      "title": "Inscripedia",
+      "year": "2025",
+      "era": "bitcoin",
+      "line": "Entire books inscribed on Bitcoin, read in a 3D viewer.",
+      "tags": ["ordinals", "three.js"]
+    },
+    {
+      "slug": "recursive-doom",
+      "title": "recursive-doom",
+      "year": "2023",
+      "era": "bitcoin",
+      "line": "DOOM in the browser via recursive ordinal inscriptions.",
+      "tags": ["ordinals", "recursion"]
+    },
+    {
+      "slug": "ordinals-infra",
+      "title": "ordinalOS node infrastructure",
+      "year": "2024",
+      "era": "bitcoin",
+      "line": "Full Bitcoin Core + ord index on own metal, plus Runes tooling.",
+      "tags": ["bitcoin", "devops"]
+    },
+    {
+      "slug": "bornsinner",
+      "title": "BORNSINNER",
+      "year": "2024",
+      "era": "bitcoin",
+      "line": "Full Ordinals collection launch stack — 3D mint to generator.",
+      "tags": ["ordinals", "r3f"]
+    },
+    {
+      "slug": "bitmap",
+      "title": "bitmap.wtf",
+      "year": "2023",
+      "era": "bitcoin",
+      "line": "Bitmap metaverse explorer, live two weeks after the protocol.",
+      "tags": ["bitcoin", "bitmap"]
+    },
+    {
+      "slug": "rarecube",
+      "title": "rarecube.tv",
+      "year": "2025",
+      "era": "platforms",
+      "line": "The New Internet Television — live streaming with creator coins.",
+      "tags": ["streaming", "solana", "livekit"]
+    },
+    {
+      "slug": "leisure-delivery",
+      "title": "leisure.delivery",
+      "year": "2025",
+      "era": "platforms",
+      "line": "On-demand delivery platform built for Lil Yachty — CTO & co-founder.",
+      "tags": ["ios", "swift", "cto"]
+    },
+    {
+      "slug": "yungcloud",
+      "title": "Yungcloud",
+      "year": "2015",
+      "era": "platforms",
+      "line": "Music streaming for 20k+ users — SF Weekly's would-be SoundCloud successor.",
+      "tags": ["streaming", "founder"]
+    },
+    {
+      "slug": "foolsgold",
+      "title": "Fool's Gold Records",
+      "year": "2025",
+      "era": "platforms",
+      "line": "The label's site — headless WordPress on Next.js.",
+      "tags": ["client", "next.js"]
+    },
+    {
+      "slug": "savage",
+      "title": "Megan Thee Stallion — \"Savage\"",
+      "year": "2020",
+      "era": "creative",
+      "line": "Director, lead animator, editor — MTV VMA Best Hip-Hop Video 2020.",
+      "tags": ["unreal", "maya", "vma winner"]
+    },
+    {
+      "slug": "champagne-coast",
+      "title": "Blood Orange — \"Champagne Coast\"",
+      "year": "2012",
+      "era": "creative",
+      "line": "Lead TD, DP, editor — one continuous-shot 3D collage. 12M+ views.",
+      "tags": ["nuke", "vfx"]
+    },
+    {
+      "slug": "thunder-horse",
+      "title": "Thunder Horse Video",
+      "year": "2009",
+      "era": "creative",
+      "line": "NYT-featured \"production powerhouse\" — MoMA PS1, Art Basel, SALEM at the Delano pool.",
+      "tags": ["installation", "live visuals", "nyt"]
+    }
+  ]
+}

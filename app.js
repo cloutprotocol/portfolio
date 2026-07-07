@@ -57,7 +57,7 @@ const BG_TILES = [
   'media/savage-1.jpg', 'media/nashville-1.jpg', 'media/zatoshi-market.png',
   'media/champagne-coast.jpg', 'media/purple-trade.png', 'media/savage-2.jpg',
   'media/nashville-2.jpg', 'media/rarecube-tv.png', 'media/ordinalos-boot.png',
-  'media/savage-3.jpg', 'media/inscripedia-onchain.png', 'media/foolsgold.png',
+  'media/savage-3.jpg', 'media/inscripedia-onchain.png', 'media/nashville-2.jpg',
 ];
 function buildBackground() {
   if (document.getElementById('bg')) return;
@@ -87,12 +87,29 @@ function renderIndex(data) {
     </li>`;
   const section = (label, items) =>
     items.length ? `<div class="section-label">${label}</div><ul class="projects">${items.map(row).join('')}</ul>` : '';
+  const client = (c) => `
+    <details class="client">
+      <summary>
+        <span class="cat">${c.cat}</span>
+        <span class="cname">${c.name}</span>
+        <span class="crole">${c.role}</span>
+        <span class="cyear">${c.year}</span>
+      </summary>
+      <div class="cbody">
+        <p>${c.desc}</p>
+        ${c.items ? `<ul>${c.items.map((i) => `<li>${i}</li>`).join('')}</ul>` : ''}
+      </div>
+    </details>`;
+  const clients = data.clients
+    ? `<div class="section-label">clients & credits</div><div class="clients">${data.clients.map(client).join('')}</div>`
+    : '';
   const body = data.eras
     ? data.eras.map((e) => section(e.label, data.projects.filter((p) => p.era === e.id))).join('')
     : section('selected work', data.projects.filter((p) => p.featured)) +
       section('more', data.projects.filter((p) => !p.featured));
   view.innerHTML = `
     <p class="intro">${data.intro}</p>
+    ${clients}
     ${body}
   `;
   hydrateTweets(view);

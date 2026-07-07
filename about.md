@@ -36,7 +36,9 @@ Followed by and building alongside the people who defined the ordinals era — B
 
 **solana** — Anchor/Rust programs, Meteora dynamic bonding curves, Jupiter routing, Metaplex, Helius, Solana Mobile (MWA / Seeker), token launches and market-data engineering
 
-**ai & agents** — agent swarms with reputation-weighted consensus, MCP servers, autonomous coding loops, multi-provider LLM ops, open training datasets
+**ai & agents** — agent swarms with reputation-weighted consensus, MCP servers, autonomous coding loops, multi-provider LLM ops
+
+**data science** — market-data engineering (71-field token snapshots, OHLC), deterministic quant labeling (sentiment, risk, liquidity heuristics), open training datasets (pump-fun-sentiment-100k on HuggingFace), LLM benchmarking
 
 **streaming & realtime** — self-hosted LiveKit (WebRTC), OvenMedia (HLS), RTMP pipelines, ten years of streaming platforms (Yungcloud → rarecube)
 
